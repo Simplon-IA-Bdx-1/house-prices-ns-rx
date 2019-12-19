@@ -1,4 +1,5 @@
-# HOUSE PRICES
+# <center>HOUSE PRICES</center>
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 Dans le cadre de la formation Data / IA à l'Ecole IA Microsoft (Powered by Simplon), il a été demandé de travailler sur un projet d'analyse prédictive.
 D'abord effectué directement sur la plateforme en ligne [BigML](https://bigml.com/), l'ensemble de processus d'apprentissage automatique supervisé a du être réalisé sur Python grâce à Jupyter Notebook.
@@ -22,11 +23,10 @@ Le script en question ne sera fonctionnel qu'après un certain nombre d'outils :
 
 ## Composition du projet
 
-* Exploratory Data Analysis (EDA) en R ;
-* Une EDA avec Python ;
-* Une prédiction avec SkLearn ;
+* Exploratory Data Analysis (EDA) ;
 * Une prédiction avec Keras / Tensorflow.
 
-## Auteur
+## Auteurs
 
-* **Nicolas SEVERINO** - [Autres projets](https://github.com/nicolasseverino/)
+* **Rachel XAYASANE** - [Profil GitHub](https://github.com/rachelrwf)
+* **Nicolas SEVERINO** - [Profil GitHub](https://github.com/nicolasseverino/)
