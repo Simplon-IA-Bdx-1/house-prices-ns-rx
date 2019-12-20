@@ -1,5 +1,6 @@
-# <center>HOUSE PRICES</center>
+# HOUSE PRICES
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+![Docker](https://img.shields.io/badge/docker-no-yellowgreen.svg)
 
 Dans le cadre de la formation Data / IA à l'Ecole IA Microsoft (Powered by Simplon), il a été demandé de travailler sur un projet d'analyse prédictive.
 D'abord effectué directement sur la plateforme en ligne [BigML](https://bigml.com/), l'ensemble de processus d'apprentissage automatique supervisé a du être réalisé sur Python grâce à Jupyter Notebook.
