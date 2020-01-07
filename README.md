@@ -29,5 +29,5 @@ Le script en question ne sera fonctionnel qu'après un certain nombre d'outils :
 
 ## Auteurs
 
-* **Rachel XAYASANE** - [Profil GitHub](https://github.com/rachelrwf)
+* **Rachel X.** - [Profil GitHub](https://github.com/rachelrwf)
 * **Nicolas SEVERINO** - [Profil GitHub](https://github.com/nicolasseverino/)
