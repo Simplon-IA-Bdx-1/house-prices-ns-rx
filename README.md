@@ -9,23 +9,82 @@ D'abord effectué directement sur la plateforme en ligne [BigML](https://bigml.c
 
 Pour retrouver la compétition en question, vous retrouverez tous les renseignements et datasets ainsi que le classement directement sur cette page : [HousePrices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview).
 
-## Pré-requis
+## Mise en place de l'environnement de travail
 
-Le script en question ne sera fonctionnel qu'après un certain nombre d'outils :
-* [Anaconda](https://www.anaconda.com/distribution/) ;
-* Un compte sur Kaggle ;
-* Un compte sur GitHub si vous souhaitez push votre projet en ligne et de façon publique ;
-* Importation de modules :
-  * Numpy : manipulation de matrices et de tableaux multidimensionnels ;
-  * Kaggle : API pour transmettre le résultat de notre algorithme et participer à la compétition ;
-  * Pandas : bibliotèque Python permettant la manipulation et l'analyse des données ;
-  * Keras / Tensorflow : deep-learning ;
-  * Matplotlib : pour créer une visualisation graphique des données.
+**Etape 1 : Inscriptions**
+
+* Créez un compte sur Kaggle ;
+* Puis un compte sur GitHub si vous souhaitez mettre votre projet en ligne et de façon publique ;
+
+**Etape 2 : Environnement de travail**
+
+Tournant sans Docker, les scripts suivants fonctionnent avec [Anaconda](https://www.anaconda.com/distribution/#download-section). Installez la version compatible avec votre système d'exploitation.
+
+Une fois installé, ouvrez Anaconda et créez votre environnement de travail (différent du "base (root)"). Pour cela :
+- allez sur "Environments": 
+
+![](env1.png)
+
+- Et sur "Create" (bas de la fenêtre):
+
+![](env2.png)
+
+- Une fenêtre s'ouvre. Entrez un nom, cochez "R" et "Python" et choisissez la version Python "3.7":
+
+![](env3.png)
+
+Si vous ne la trouvez pas dans le menu déroulant, pas de panique et allez dans la barre des tâches au dessus. Cliquez sur "Update index" :
+
+![](env4.png)
+
+**Etape 3 : Installation des modules**
+
+Pour cela, dans votre environnement, sélectionnez "All" et tapez dans la barre de recherche :
+
+* "pandas"
+
+![](env5.png)
+
+Sélectionnez la version 0.25.1
+
+* "numpy". Sélectionnez la version 1.16.5
+* "matplotlib". Sélectionnez la version 3.1.1
+* "keras". Sélectionnez la version 2.2.4
+* "seaborn". Sélectionnez la version 0.9.0
+* "scipy". Sélectionnez la version 1.3.1
+* "tensorflow". Sélectionnez la version 1.15.0
+* "scikit-learn". Sélectionnez la version 0.21.3
+
+**Etape 4 : Installation de Jupyter Notebooks**
+
+Cliquez sur Home dans la barre de gauche. Puis, sous Jupyter Notebooks, cliquez sur "Install" :
+
+![](env6.png)
+
+Patientez et voilà, votre environnement est prêt !
+
+**Etape 5 : Préparation au lancement des scripts**
+
+- Téléchargez les scripts Jupyter Notebooks : [ici](https://github.com/Simplon-IA-Bdx-1/house-prices-ns-rx)
+
+- Placez les à l'endroit de votre choix.
+
+- Téléchargez les datasets nécessaires (train.csv et test.csv) : [ici](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+
+- Placez ces 2 fichiers dans le même dossier que les scripts Jupyter Notebooks.
+
+- Dans Anaconda, lancez l'application Jupyter dans "Home" :
+
+![](env7.png)
+
+Un onglet de votre navigateur web va s'ouvrir automatiquement et vous amènera dans votre dossier utilisateur sur votre machine. Naviguez jusque dans votre dossier où se trouvent tous les fichiers précédemment placés. 
+
+Cliquez sur celui que vous souhaitez exécuter et pour lancer chaque cellule, pressez les touches SHIFT + ENTREE (en même temps). Ou si vous souhaitez toutes les lancer d'un coup, allez dans l'onglet "Cell" puis "Run Cells".
 
 ## Composition du projet
 
-* Exploratory Data Analysis (EDA) ;
-* Une prédiction avec Keras / Tensorflow.
+* Un script contenant une [analyse exploratoire de données (EDA)](https://github.com/Simplon-IA-Bdx-1/house-prices-ns-rx/blob/master/HousePrices_analysis.ipynb) ;
+* Un script content [une prédiction avec Keras / Tensorflow](https://github.com/Simplon-IA-Bdx-1/house-prices-ns-rx/blob/master/HousePrices_keras.ipynb)
 
 ## Auteurs
 
