@@ -55,6 +55,12 @@ Sélectionnez la version 0.25.1
 * "tensorflow". Sélectionnez la version 1.15.0
 * "scikit-learn". Sélectionnez la version 0.21.3
 
+Pour l'installation de l'api **Kaggle** lancer la commande suivante dans votre teminale anaconda (avec le bon environnement de travail) :
+`conda install -c conda-forge kaggle`
+
+Pour l'installation de **python-dotenv** lancer la commande suivante :
+`conda install -c conda-forge python-dotenv`
+
 **Etape 4 : Installation de Jupyter Notebooks**
 
 Cliquez sur Home dans la barre de gauche. Puis, sous Jupyter Notebooks, cliquez sur "Install" :
