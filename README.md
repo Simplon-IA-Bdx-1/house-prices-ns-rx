@@ -61,8 +61,8 @@ Pour l'installation de l'api **Kaggle** lancer la commande suivante dans votre t
 Pour l'installation de **python-dotenv** lancer la commande suivante :
 `conda install -c conda-forge python-dotenv`
 
-Ensuite il vous faudra créer un fichier `.env` avec vos identifiant Kaggle. Le ficher devra comporter les lignes suivantes et devra être placé dans le dossier au même niveau que les notebooks :
-KAGGLE_USERNAME=nom_d'utilisateur_kaggle(*ex:* nrx)
+Ensuite il vous faudra créer un fichier `.env` avec vos identifiant Kaggle. Le ficher devra comporter les lignes suivantes et devra être placé dans le dossier au même niveau que les notebooks :<br>
+KAGGLE_USERNAME=nom_d'utilisateur_kaggle(*ex:* nrx)<br>
 KAGGLE_KEY=votre_clé_kaggle(*ex:* a123456s0789123fc00000x60c6cf)
 
 **Etape 4 : Installation de Jupyter Notebooks**
