@@ -85,6 +85,7 @@ Cliquez sur celui que vous souhaitez exécuter et pour lancer chaque cellule, pr
 
 * Un script contenant une [analyse exploratoire de données (EDA)](https://github.com/Simplon-IA-Bdx-1/house-prices-ns-rx/blob/master/HousePrices_analysis.ipynb) ;
 * Un script content [une prédiction avec Keras / Tensorflow](https://github.com/Simplon-IA-Bdx-1/house-prices-ns-rx/blob/master/HousePrices_keras.ipynb)
+* Un script content [une prédiction avec XGBoost sur les 'meilleurs features'](https://github.com/Simplon-IA-Bdx-1/house-prices-ns-rx/blob/master/D_most_relevant_features_xgb_gscv.ipynb)
 
 ## Auteurs
 
